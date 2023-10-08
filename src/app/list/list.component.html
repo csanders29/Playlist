@@ -1,0 +1,22 @@
+<div class="top">
+    <div class="header">
+    <h1 style=" text-align: center; color: white; 
+    margin-right: 105px;">Mariana play list</h1>
+    <label class="col-1">Song Name</label>
+    <label class="col-2">Artist Name</label>
+    <div class="line">
+    <div>
+    </div>
+        <div *ngFor="let content of contents; index as i" class="table">
+        <div class="list">
+        <div class="name">{{content.name}}</div>
+        <div class="singer">{{content.singer}}</div>
+        <button class="button" (click)="delet(i)">delet</button>
+        </div>
+    </div>
+    <div class="input">
+        <input class="input-name" #inputName type="test"  placeholder='Name'>
+        <input class="input-singer" #inputSinger type="test" placeholder="Singer">
+        <button (click)="add()">add</button>
+    </div>
+</div>

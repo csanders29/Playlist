@@ -1,0 +1,6 @@
+  
+<app-log-in *ngIf="!this.logIn" 
+    [LogIn]="this.logIn" 
+    (Value)="valueUser($event)" ></app-log-in>
+<app-list *ngIf="this.logIn" [contents]="this.content"(newSong)=" postData($event)" ></app-list>
+<router-outlet></router-outlet>

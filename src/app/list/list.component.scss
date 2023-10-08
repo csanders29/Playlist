@@ -1,0 +1,54 @@
+.top{  
+    background: url(https://wallpaperaccess.com/full/4090306.jpg) no-repeat;
+    height: 42rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+ .header{  
+    .col-1{
+        margin-left: 34%;
+        margin-right: 80px;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+    .col-2{font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+}
+.table{//text-align: center;
+    .list{
+        display: flex;
+        height: 20px;
+        background-color: bisque;
+        border-top: 1px solid black;
+        .name{ width: 200px;
+            text-align: center;
+            margin-left: 31%;
+        }
+        .singer{width: 200px;
+            text-align: center;
+           
+        }
+        .button{
+            margin-left: 40px;
+        }
+    }
+}
+.line{
+    border-top: 5px solid white;
+}
+.input{ display: flex;
+.input-name{
+    margin-left: 31%;
+    width: 191px;
+}
+.input-singer{
+    margin-right: 45px;
+    width: 192px;
+}}}
